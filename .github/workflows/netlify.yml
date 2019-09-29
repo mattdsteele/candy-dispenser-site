@@ -18,9 +18,10 @@ jobs:
           npm run build
         env:
           CI: true
-      - uses: 'netlify/actions/cli@master'
+      - name: Deploy to Netlify
+        uses: 'netlify/actions/cli@master'
         env:
           NETLIFY_AUTH_TOKEN: ${{secrets.NETLIFY_ACCESS_TOKEN}}
           NETLIFY_SITE_ID: ${{secrets.NETLIFY_SITE}}
         with:
-          args: 'deploy --dir=dist'
+          args: 'deploy --dir=./dist/'
