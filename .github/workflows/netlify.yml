@@ -22,4 +22,5 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{secrets.NETLIFY_ACCESS_TOKEN}}
           NETLIFY_SITE_ID: ${{secrets.NETLIFY_SITE}}
-        args: 'deploy dir=dist'
+        with:
+          args: 'deploy dir=dist'
