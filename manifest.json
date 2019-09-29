@@ -1,0 +1,112 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Candy",
+    "scope": "/",
+    "display": "fullscreen",
+    "start_url": "https://candy.steele.blue/",
+    "short_name": "🍭",
+    "theme_color": "transparent",
+    "description": "Dispenses candy!",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/ce6913fe-9b7a-1a59-9b16-701bba7c05ca.webPlatform.png",
+            "sizes": "44x44",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/0439730d-1afd-5d56-94da-09a02e16f862.webPlatform.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/8cde6a25-36b1-7cde-a609-c66046689bae.webPlatform.png",
+            "sizes": "1240x600",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/12c405c4-9c4c-1ca2-8821-9fdb807a35bd.webPlatform.png",
+            "sizes": "300x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/88c989de-ce09-daf9-3df0-217bef98aea5.webPlatform.png",
+            "sizes": "150x150",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/22f955b9-ce9f-ad7d-73c1-2480c24ae5b2.webPlatform.png",
+            "sizes": "88x88",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/2382581e-c142-d2c8-6e98-a36338862372.webPlatform.png",
+            "sizes": "24x24",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/c857e9c7-eaf2-1f67-f5e8-eb5b5fef6d64.webPlatform.png",
+            "sizes": "50x50",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/d8d8da6a-6a88-75fa-d412-d66f8da96dec.webPlatform.png",
+            "sizes": "620x300",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/363b538b-b1c4-e40b-3251-0ede7ec7fa7c.webPlatform.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/49857da1-a435-f150-640e-438bbed5fce8.webPlatform.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/83b41cfa-a1da-8378-ae36-3933aaa454ef.webPlatform.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/3638e529-603f-05af-0274-99654d35f6a4.webPlatform.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/ed40bf12-bfdb-280c-c620-f485fb97b37c.webPlatform.png",
+            "sizes": "36x36",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/31c3ede4-086b-2e75-097a-6315e8ae90a7.webPlatform.png",
+            "sizes": "1024x1024",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/4cf4c980-7a4b-84f4-dc37-90433f8a43fd.webPlatform.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/0f07ca77-6e3f-7f3d-d16d-7e05257b7154.webPlatform.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/20b1af7b-cdc0-afef-899c-18d391259717.webPlatform.png",
+            "sizes": "120x120",
+            "type": "image/png"
+        },
+        {
+            "src": "/images/007bbd91-4f66-ccf8-c74f-9ef400a962e5.webPlatform.png",
+            "sizes": "76x76",
+            "type": "image/png"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<link rel="manifest" href="manifest.json"></link>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>🍬🍭🍫</title>
+    <script type="module" src="./pwabuilder-sw-register.js"></script>
+    <script type="module" defer>
+      import './web_modules/@material/mwc-button.js';
+      document
+        .querySelector('mwc-button')
+        .addEventListener('click', async () => {
+          await fetch(
+            'https://us-central1-sandbox-254315.cloudfunctions.net/trigger-candy',
+            { method: 'POST' }
+          );
+        });
+    </script>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+      body {
+        display: flex;
+        align-items: center;
+      }
+      mwc-button {
+        margin: auto;
+        font-size: 3em;
+      }
+      .button-wrapper {
+        text-align: center;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="button-wrapper">
+      <mwc-button raised label="Deliver 🍬"></mwc-button>
+    </div>
+  </body>
+</html>
