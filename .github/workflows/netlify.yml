@@ -23,8 +23,8 @@ jobs:
         env:
           NETLIFY_AUTH_TOKEN: ${{secrets.NETLIFY_ACCESS_TOKEN}}
           NETLIFY_SITE_ID: ${{secrets.NETLIFY_SITE}}
-          BUILD_COMMAND: 'ls -la $GITHUB_WORKSPACE/dist/'
+          BUILD_COMMAND: 'ls -la'
           #BUILD_COMMAND: 'which netlify'
         with:
-          args: 'deploy -p -d ${GITHUB_WORKSPACE}/dist/'
+          args: 'deploy -p -d ./dist'
           # args: 'status'
