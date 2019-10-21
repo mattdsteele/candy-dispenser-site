@@ -10,22 +10,25 @@
     <script type="module" defer>
       import './web_modules/@material/mwc-button.js';
       import './web_modules/@material/mwc-linear-progress.js';
+      import './web_modules/@material/mwc-snackbar.js';
       const button = document.querySelector('mwc-button');
+      const snackbar = document.querySelector('mwc-snackbar');
       button.addEventListener('click', async () => {
           const progress = document.querySelector('mwc-linear-progress');
           progress.classList.remove('hidden');
           button.disabled = true;
           try {
             await fetch(
-              'https://us-central1-sandbox-254315.cloudfunctionss.net/trigger-candy',
+              'https://us-central1-sandbox-254315.cloudfunctions.net/trigger-candy',
               { method: 'POST' }
             );
+            snackbar.labelText = '🍬🍭🍬🍭🍫🍭🍬🍫🍭🍬';
           } catch (e) {
-            console.error('failed');
-            console.error(e);
+            snackbar.labelText = e;
           } finally {
             progress.classList.add('hidden');
             button.disabled = false;
+            snackbar.open();
           }
         });
     </script>
@@ -60,6 +63,7 @@
   </head>
   <body>
     <mwc-linear-progress class="hidden"></mwc-linear-progress>
+    <mwc-snackbar></mwc-snackbar>
     <div class="center-everything">
       <div class="button-wrapper">
         <mwc-button raised label="Deliver 🍬"></mwc-button>

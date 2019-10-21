@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@material/mwc-button": "latest",
-    "@material/mwc-linear-progress": "^0.10.0"
+    "@material/mwc-linear-progress": "^0.10.0",
+    "@material/mwc-snackbar": "^0.10.0"
   },
   "devDependencies": {
     "@pika/web": "^0.6.1"
