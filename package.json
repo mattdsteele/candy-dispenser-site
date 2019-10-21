@@ -11,7 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@material/mwc-button": "^0.9.0"
+    "@material/mwc-button": "latest",
+    "@material/mwc-linear-progress": "^0.10.0"
   },
   "devDependencies": {
     "@pika/web": "^0.6.1"
